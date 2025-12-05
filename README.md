@@ -1,6 +1,6 @@
-# Genetic Family History Chatbot (DESN2000 Project)
+# Genetic Family History Chatbot
 
-👩‍⚕️ This is a prototype command-line chatbot designed to collect structured genetic family history from patients - DESN2000 @UNSW.
+👩‍⚕️ This is a prototype command-line chatbot designed to collect structured genetic family history from patients
 
 ## 📌 Project Description
 
@@ -35,21 +35,21 @@ The collected data is output as a structured CSV file and a pedigree chart.
 ### MacOS/Linux
 #### Getting started
 - Make sure you have python3 installed (`python3 --version` - should output something similar to Python 3.13.5)
-- `git clone` Group1_DESN2000 SSH key in terminal
-- Open the Group1_DESN2000 folder
+- `git clone` SSH key in terminal
+- Open the folder
 - **Generate a virtual environment**: `python3 -m venv venv`
 - **Open the virtual environment**: `source venv/bin/activate`
 - **Install required packages**: `pip3 install -r requirements.txt`
 - **Move to the chatbot folder**: `cd app/chatbot`
 
 #### Running the backend
-- In the Group1_DESN2000/app/chatbot/backend folder
+- In the ~/app/chatbot/backend folder
 - **Open the backend**: `python3 AIchatbot.py`
 - **Close the backend**: type "exit" at any time
 - **Pedigree maker (when finished chatting)**: `python3 convert_csv_to_R.py`
 
 #### Running the front end
-- In the Group1_DESN2000/app/chatbot/frontend folder
+- In the ~/app/chatbot/frontend folder
 - **Open the frontend**: `streamlit run root_app.py`
 - **Close the frontend**: control + C 
 
@@ -59,21 +59,21 @@ The collected data is output as a structured CSV file and a pedigree chart.
 ### Windows
 #### Getting started
 - Make sure you have python3 installed (`python3 --version` - should output something similar to Python 3.13.5)
-- `git clone` Group1_DESN2000 SSH key in terminal
-- Open the Group1_DESN2000 folder
+- `git clone` SSH key in terminal
+- Open the folder
 - **Generate a virtual environment**: `python -m venv venv`
 - **Open the virtual environment**: `venv\Scripts\activate`
 - **Install required packages**: `pip install -r requirements.txt`
 - **Move to the chatbot folder**: `cd app/chatbot`
 
 #### Running the backend
-- In the Group1_DESN2000/app/chatbot/backend folder
+- In the ~/app/chatbot/backend folder
 - **Open the backend**: `python AIchatbot.py`
 - **Close the backend**: type "exit" at any time
 - **Pedigree maker (when finished chatting)**: `python convert_csv_to_R.py`
 
 #### Running the front end
-- In the Group1_DESN2000/app/chatbot/frontend folder
+- In the ~/app/chatbot/frontend folder
 - **Open the frontend**: `streamlit run root_app.py`
 - **Close the frontend**: control + C 
 
@@ -152,11 +152,3 @@ export OPENAI_API_KEY="your_api_key"
 ├── README.md               # Project documentation
 └── requirements.txt        # Python dependencies
 ```
-
-## Support
-For additional help, contact the development team:
-- Nick Yen
-- Dhruv Sharma
-- Minh Le
-- Kellie Lai
-- Tara Moore
